@@ -37,27 +37,27 @@ A aplicação consiste em uma SPA dividida em duas camadas independentes: interf
 
 #### Nova batida
 
-1. **Registro de batida**
+1. **Registro de batida**  
    O usuário registra uma batida.
-2. **Atualização do registro**
+3. **Atualização do registro**  
    A aplicação atualiza o registro do dia referente a batida e calcula o tempo em atividade.
-3. **Salvamento da batida**
+4. **Salvamento da batida**  
    A aplicação salva o registro no localStorage.
-4. **Atualização do estado**
+5. **Atualização do estado**  
    A aplicação atualiza o estado da interface com o novo registro.
 
 #### Editar relatório
 
-1. **Abertura do registro**
-   O usuário abre o editor de registro.
-2. **Cópia do registro**
-   A aplicação cria uma cópia editável do registro e disponibiliza através do editor.
-3. **Alterações**
-   O usuário altera o que desejar na cópia e salva.
-4. **Atualização do registro**
-   A aplicação substitui o registro antigo pela cópia editada no localStorage.
-5. **Atualização da interface**
-   A aplicação atualiza o estado da interface com o novo registro.
+1. **Abertura do registro**  
+  O usuário abre o editor de registro.
+2. **Cópia do registro**  
+  A aplicação cria uma cópia editável do registro e disponibiliza através do editor.
+3. **Alterações**  
+  O usuário altera o que desejar na cópia e salva.
+4. **Atualização do registro**  
+  A aplicação substitui o registro antigo pela cópia editada no localStorage.
+5. **Atualização da interface**  
+  A aplicação atualiza o estado da interface com o novo registro.
 
 ### Gerenciamento de Estado
 
