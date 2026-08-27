@@ -74,7 +74,7 @@ const ClockContextProvider = ({ children }: ProviderProps) => {
     if (reports.reachedEnd) return;
     setReports((prev) => {
       const newReports = clockHandler.getReports(
-        prev.data.length + 1,
+        prev.data.length,
         REPORTS_ORDER_AMOUNT,
       );
       const reachedEnd = newReports.length < REPORTS_ORDER_AMOUNT;
